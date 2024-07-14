@@ -22,6 +22,9 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("com.linecorp.kotlin-jdsl:jpql-dsl:3.5.1")
+    implementation("com.linecorp.kotlin-jdsl:jpql-render:3.5.1")
+    implementation("com.linecorp.kotlin-jdsl:spring-data-jpa-support:3.5.1")
     runtimeOnly("com.mysql:mysql-connector-j")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
